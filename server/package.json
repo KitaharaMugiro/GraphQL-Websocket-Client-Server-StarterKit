@@ -1,0 +1,25 @@
+{
+  "name": "graphql-typescript-startkit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KitaharaMugiro/GraphQL-Typescript-StartKit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KitaharaMugiro/GraphQL-Typescript-StartKit/issues"
+  },
+  "homepage": "https://github.com/KitaharaMugiro/GraphQL-Typescript-StartKit#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  }
+}
