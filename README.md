@@ -15,6 +15,7 @@ npx degit https://github.com/KitaharaMugiro/GraphQL-Typescript-StartKit <Directo
 - [x] [サーバサイド](https://github.com/KitaharaMugiro/GraphQL-Typescript-StartKit)
 - [x] クライアントサイド
 - [ ] 型定義
+- [ ] サーバサイドとクライアントサイドの連携
 - [ ] 使いやすい方法を考える(今のままだとサンプルアプリ。。)
 
 

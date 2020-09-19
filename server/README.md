@@ -39,9 +39,29 @@ mutation {
 - [x] TypeScriptのインストール
 - [x] デモページ(Query, Mutation)
 - [x] Pubsub(Websocket)
+- [x] GraphQL Code Generator
 - [ ] テスト環境のセットアップ
-- [ ] 最低限必要なライブラリのインストール
 - [ ] ホットリロード
-- [ ] ベストプラクティスのディレクトリ構造
-- [ ] デモをリッチにさせてGraphQLを利用する際のテンプレにする
-- [ ] TypeScriptを生かしたプラクティスの導入
+- [ ] Authorization
+- [ ] AppSyncs
+
+# GraphQL Code Generatorの使い方
+設定ファイルcodegen.ymlをもとに以下スクリプトで自動的に型ファイルが生成される。
+
+```
+npm run generate
+```
+
+# Schema First Development
+① Schemaを記述する
+② Typeを自動生成する
+③ Resolverを実装する
+
+所感としてはやりにくい。。もう少しベストプラクティスを見たい。
+
+
+対応するCode First Developmentについてはこちら
+https://www.prisma.io/blog/introducing-graphql-nexus-code-first-graphql-server-development-ll6s1yy5cxl5
+
+# ドキュメント
+[GraphQL Code Generator](https://graphql-code-generator.com/)

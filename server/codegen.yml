@@ -1,0 +1,15 @@
+overwrite: true
+documents: null
+generates:
+  ./graphql.schema.json:
+    schema: "./src/graphql/**/*.graphql"
+    plugins:
+      - "introspection"
+  src/generated/message.ts:
+    schema: "./src/graphql/message.graphql"
+    plugins:
+      - "typescript"
+      - typescript-resolvers
+    config:
+      skipTypename: true
+      avoidOptionals: false

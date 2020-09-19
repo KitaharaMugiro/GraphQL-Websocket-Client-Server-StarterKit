@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node server.ts",
+    "start": "ts-node src/server.ts",
+    "generate": "graphql-codegen --config codegen.yml",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,8 +19,16 @@
   },
   "homepage": "https://github.com/KitaharaMugiro/GraphQL-Typescript-StartKit#readme",
   "dependencies": {
+    "@graphql-codegen/typescript-operations": "^1.17.8",
+    "graphql": "^15.3.0",
     "graphql-yoga": "^1.18.3",
     "ts-node": "^9.0.0",
     "typescript": "^4.0.2"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "1.17.8",
+    "@graphql-codegen/typescript": "1.17.8",
+    "@graphql-codegen/typescript-resolvers": "1.17.8",
+    "@graphql-codegen/introspection": "1.17.8"
   }
 }
