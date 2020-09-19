@@ -18,6 +18,8 @@ npx degit https://github.com/KitaharaMugiro/GraphQL-Typescript-StartKit <Directo
 - [ ] サーバサイドとクライアントサイドの連携
 - [ ] 使いやすい方法を考える(今のままだとサンプルアプリ。。)
 
+# 注意
+ローカルで動かすおもちゃとしては使えるが、本番利用を考える際はserverのデプロイをしてそのURLをフロントから呼び出すようにする必要がある。
 
 # ドキュメント
 
